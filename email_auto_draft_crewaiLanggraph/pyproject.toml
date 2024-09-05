@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "email-auto-draft-crewailanggraph"
+version = "0.1.0"
+description = "email automation using langgraph and crewai"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+crewai = "^0.51.1"
+langchain = "^0.2.16"
+langchain-community = "^0.2.16"
+langchain-core = "^0.2.16"
+langgraph = "^0.1.1"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
